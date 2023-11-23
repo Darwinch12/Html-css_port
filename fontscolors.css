@@ -1,0 +1,135 @@
+/* fontscolors html */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: #9d9;
+}
+
+header {
+    background-image: url(images/pexels-steve-johnson-1150626.jpg);
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 10px 10px darkorange;
+}
+
+footer {
+    background-image: url(images/pexels-steve-johnson-1150626.jpg);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+#Audiencehead, #Audience {
+    font-family: Didone, serif;
+    font-size: 18px;
+}
+
+#Audienceart {
+    background-color: #dcc;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px #ff8;
+}
+
+#Elegancehead {
+    font-family: 'Josefin Sans' , sans-serif;
+}
+
+#Elegance{
+    font-family: 'Josefin Sans' , sans-serif;
+}
+
+#Eleganceart {
+    background-color: #f9b;
+    border-style: outset;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px #2bc;
+}
+
+#Hiphead {
+    font-family: 'Black Ops One' , cursive;
+}
+
+#Hip {
+    font-family: 'Fugaz One', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+
+#Hipart {
+    background-color: #2ce;
+    border-style: dashed;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px #f25;
+}
+
+#Neutralart {
+    background-color: peachpuff;
+    border: 10px solid gray;
+    color: darkslateblue;
+    font-family: 'Ubuntu Mono' , monospace;
+}
+
+#Cheapart {
+    background-color: #df535b;
+    border-style: solid;
+    border-radius: 30px;
+    box-shadow: -5px 10px #dfc721;
+    border-color: #70d357;
+    font-family: 'Merienda' , cursive;
+}
+
+#Luxuryart {
+    background-color: #d4c89a;
+    border: 10px ridge #684b31;
+    color: #2e1f1e;
+    font-family: 'Cinzel' , serif;
+}
+
+#Youngart {
+    background-color: #f9e104;
+    border-radius: 30px;
+    border: 5px dotted #35d461;
+    color: #882ff6;
+    font-family: 'Shadows Into Light' , cursive;
+}
+
+.alink,.blink,.clink,.dlink {
+    color: azure;
+    text-decoration: none;
+}
+
+.alink:hover {
+    color: red;
+}
+
+.blink:hover {
+    color: #2bc;
+    text-decoration: none;
+}
+
+.clink:hover {
+    color: #2c7;
+    text-decoration: none;
+}
+
+.dlink:hover {
+    color: #ff8;
+    text-decoration: none;
+}

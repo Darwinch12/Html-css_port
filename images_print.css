@@ -1,0 +1,33 @@
+/* Print Stylesheet */
+
+body {
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,#wideart,footer {
+    display:none;
+}
+
+#homepg {
+    display: none;
+}
+
+#pexpic {
+    display: none;
+}
+
+#mobtab {
+    display: none;
+}
+
+th,td {
+    border: none;
+}
+
+#printtab {
+    display: contents;
+}
+
+a {
+    display: contents;
+}

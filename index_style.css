@@ -1,0 +1,52 @@
+/* stylesheet for my main port pg index */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: antiquewhite;
+background-image:
+linear-gradient(#abced4 .1em, transparent .1em);
+background-size: 100% 1.8em;
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.footlk:hover {
+    text-decoration: overline;
+}
+
+#banner:hover {
+    filter: hue-rotate(50deg)
+}
+
+svg {
+    transform: rotate(-25deg);
+}
+
+a {
+    font-family: 'Abril Fatface', cursive;
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: line-through;
+}
+
+h1 {
+    display: none;
+}
+
+svg {
+    box-sizing: border-box;
+    object-position: center;
+    padding-left: auto;
+    padding-right: auto;
+}

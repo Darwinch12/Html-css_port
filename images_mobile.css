@@ -1,0 +1,53 @@
+/* Mobile stylesheet */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h1,h2,h3,h4,#wideart,#printtab,footer {
+    display:none;
+}
+
+#mobtitle {
+    display: inline;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#mobtab {
+    border: 5px solid #df535b;
+}
+
+th,td {
+    border: 1px solid #2e1f1e;
+}
+
+#pexpic {
+    font-family: 'Signika Negative', sans-serif;
+    color: #20c997;
+    font-size: 18px;
+    text-decoration-style: dashed;
+}
+
+#homepg {
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    color: #20c997;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#pexpic:hover {
+    font-family: 'Signika Negative', sans-serif;
+    color: #df535b;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#homepg:hover {
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    color: #df535b;
+    font-size: 18px;
+    text-decoration: underline;
+}
